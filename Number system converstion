@@ -30,11 +30,11 @@ elif choice == 2:
 elif choice == 3:
     temp = n
     result = ""
-    symbols = "0123456789ABCDEF"
+    x = "0123456789ABCDEF"
     if temp == 0:
         result = "0"
     while temp > 0:
-        result = symbols[temp % 16] + result
+        result = x[temp % 16] + result
         temp = temp // 16
     print("Hexadecimal:", result)
 
