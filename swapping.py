@@ -1,5 +1,7 @@
+text = "Code Quest 2026!"
 result = ""
-for char in string:
+
+for char in text:
     num = ord(char)
     if 65 <= num <= 90:
         result += chr(num + 32)
@@ -8,5 +10,4 @@ for char in string:
     else:
         result += char
 
-num = input("enter a word")
-print(result) 
+print(result)

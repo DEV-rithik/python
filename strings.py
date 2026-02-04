@@ -43,8 +43,8 @@ print("text[::-1]  =", text[::-1])    # reverse
 print()
 
 # String functions and methods
-sample = "   hello python world   "
-print("Original sample: '", sample, "'", sep="")
+sample = "hello python world"
+print("Original sample:", sample, "'", sep="")
 
 # strip: remove leading/trailing spaces
 print("strip()       -> '", sample.strip(), "'", sep="")
